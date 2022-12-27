@@ -1,0 +1,33 @@
+.board-preview-main {
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+    height: rem(96px);
+    width: rem(192px);
+    cursor: pointer;
+    position: relative;
+    &:hover {
+        opacity: 0.8;
+    }
+
+    h1 {
+        padding: 4px 8px 0 8px;
+        color: #ffff;
+    }
+    span {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin: 10px;
+    }
+    .icon-starred-boards {
+        @include to-icon("\e967");
+        color: $mainYellow;
+    }
+
+    &:hover {
+        .icon-starred-boards {
+            @include to-icon("\e966");
+            color: $mainYellow;
+        }
+    }
+}
