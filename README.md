@@ -1,35 +1,31 @@
-# frontend
+# Tasko-frontend - Trello clone
 
-This template should help get you started developing with Vue 3 in Vite.
+## Description
+Tasko is a task management web app inspired by Trello. 
+The user can build a board from scratch or create a board 
+from an existing template that can also be edited. 
+This project was developed as part of a bootcamp graduation. 
+We created a pixel-perfect Trello clone and implemented many of its features like Drag and Drop and Socket.io for real-time updates. 
 
-## Recommended IDE Setup
+## Time Taken
+3-weeks
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+## Technologies Used
+- VueJs
+- Vuex
+- NodeJS
+- Express
+- WebSockets (Socket.io)
+- MongoDB
+- HTML
+- CSS
+- Sass
 
-## Customize configuration
+### Frontend
+The front-end is hosted on Render.  
+Link: https://tasko.onrender.com/
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Backend
+Repository for the backend:
+<a href="https://github.com/AnnaBalinov/Tasko-backend" target="blank"> Tasko-backend </a>
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
